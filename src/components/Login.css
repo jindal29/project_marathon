@@ -1,0 +1,26 @@
+h1,
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/* width by default complete web page wali */
+.main{
+  height: 500px;
+  width: 400px;
+  background-color: rgb(20, 19, 19);
+  box-shadow: 0px 0px 30px 10px black;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* horizontal offset , vertical offset , blur radius , spread , color */    
+ /* above are the 5 elements of box-shadow */

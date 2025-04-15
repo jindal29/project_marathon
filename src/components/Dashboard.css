@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    padding: 84px;
+  }
+  .container{
+    height: 200px;
+    width: 500px;
+  }
+  .header{
+    display: flex;
+    border: 1px solid black;
+    /* width: fit-content; */
+    padding: 16px;
+    gap: 8px;
+    justify-content: space-between;
+  }
+  
+  .student{
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 16px;
+  }
+  
+  /* har child ke flex ka sum = 1 hona chhy */
+  
